@@ -29,27 +29,6 @@ public class MoverConSerial : MonoBehaviour
             rotacion = Vector3.zero;
         }
         
-        
-        // rotacion[1] = dato;
-        // ejes[0].transform.rotation = Quaternion.Euler(rotacion);
-        // rotacion = Vector3.zero;
-
-        // dato = map(0,1023,-90,90,intValores[1]);
-        // rotacion[1] = dato;
-        // ejes[1].transform.localRotation = Quaternion.Euler(rotacion);
-        // rotacion = Vector3.zero;
-
-        // dato = map(0,1023,-90,90,intValores[2]);
-        // rotacion[2] = dato;
-        // ejes[2].transform.localRotation = Quaternion.Euler(rotacion);
-        // rotacion = Vector3.zero;
-
-        // dato = map(0,1023,-90,90,intValores[3]);
-        // rotacion[2] = dato;
-        // ejes[3].transform.localRotation = Quaternion.Euler(rotacion);
-        // rotacion = Vector3.zero;
-        // dato = map(0,1023,-90,90,intValores[1]);
-        // ejes[1].transform.Rotate(0,dato,0);
     }
     public float map(float OldMin, float OldMax, float NewMin, float NewMax, int OldValue){ 
         float OldRange = (OldMax - OldMin);
